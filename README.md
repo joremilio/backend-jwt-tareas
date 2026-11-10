@@ -36,7 +36,7 @@ backend/
 
 1. Clona el repositorio:
    ```
-   git clone https://github.com/TU_USUARIO/backend-jwt-tareas.git
+   git clone https://github.com/EmilioSaucedo/backend-jwt-tareas.git
    cd backend-jwt-tareas
    ```
 2. Instala las dependencias:
