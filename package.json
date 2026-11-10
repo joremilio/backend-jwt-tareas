@@ -1,0 +1,25 @@
+{
+  "name": "backend-jwt-tareas",
+  "version": "1.0.0",
+  "description": "API REST de tareas con autenticación JWT (Node.js + Express + MongoDB)",
+  "license": "ISC",
+  "author": "Jorge",
+  "type": "commonjs",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
