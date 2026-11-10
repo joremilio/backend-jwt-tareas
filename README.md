@@ -45,7 +45,7 @@ backend/
    ```
 3. Crea un archivo `.env` en la raíz copiando `.env.example` y llena tus valores:
    ```
-   PORT=5000
+   PORT=5001
    NODE_ENV=production
    MONGO_DB=tu_cadena_de_conexion_de_mongodb
    JWT_SECRET=un_secreto_largo_y_aleatorio
@@ -58,7 +58,7 @@ npm run server   # desarrollo, con nodemon
 npm start        # modo normal
 ```
 
-El servidor queda en `http://localhost:5000`.
+El servidor queda en `http://localhost:5001`.
 
 ## Endpoints
 
